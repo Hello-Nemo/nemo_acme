@@ -8,6 +8,14 @@
 安装文件和配置文件都在home目录下，也就是 ~/.acme.sh/
 创建一个 bash alias ， alias acme.sh='~/.acme.sh/acme.sh' ，重新打开终端后直接输入 acme.sh 就可以快速方便地使用这个脚本
 整个安装过程对环境无污染，所有新文件仅限 ~/.acme.sh/ 目录内。
+## 申请 DNSPOD API 并设置环境变量
+ 获取 api 信息 [DNSPOD](https://www.dnspod.cn)
+
+ 设置环境变量
+ `
+ export DP_Id="id"  
+ export DP_Key="token"
+ `
 
 ## acme.sh 生成证书
 > 提前修改 `nginx` 配置 
