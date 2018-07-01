@@ -1,4 +1,4 @@
-## 安装acme.sh
+## 安装 acme.sh
 
 `curl  https://get.acme.sh | sh`
 `base acme.sh`
