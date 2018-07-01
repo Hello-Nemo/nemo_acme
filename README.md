@@ -12,7 +12,9 @@
  获取 api 信息 [DNSPOD](https://www.dnspod.cn)
 
  设置环境变量
+
  `export DP_Id="id"`
+ 
  `export DP_Key="token"`
 
 ## acme.sh 生成证书
