@@ -2,14 +2,15 @@
 
 `wget https://get.acme.sh  -O acme.sh`
 
-`base acme.sh`
+`base acme.sh` 
+> 提示 base 命令不存在,可以使用 `sh acme.sh `
 
 这样就已经安装好了acme.sh脚本，具体动作：
 
 安装文件和配置文件都在home目录下，也就是 ~/.acme.sh/
 创建一个 bash alias ， alias acme.sh='~/.acme.sh/acme.sh' ，重新打开终端后直接输入 acme.sh 就可以快速方便地使用这个脚本
 整个安装过程对环境无污染，所有新文件仅限 ~/.acme.sh/ 目录内。
-## dnspod 申请
+## [DNSPOD](https://www.dnspod.cn) 申请
 
 申请:API TOKEN
 
