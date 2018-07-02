@@ -14,6 +14,8 @@
 
 申请:API TOKEN
 
+配置 DNS 服务到 DNSPOD
+
 设置环境变量
 ```
 export DP_Id="id"  
