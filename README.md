@@ -1,6 +1,6 @@
 ## 安装 acme.sh
 
-`curl  https://get.acme.sh | sh`
+`wget https://get.acme.sh  -O acme.sh`
 `base acme.sh`
 
 这样就已经安装好了acme.sh脚本，具体动作：
